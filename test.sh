@@ -2,6 +2,8 @@
 
 #echo "this is a void test suite..."
 
+pip install anymarkup
+
 let failures=0
 
 export PYTHONPATH=`pwd`
