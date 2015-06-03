@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export PYTHONPATH=`pwd`
+
 let failures=0
 
 cd tests
