@@ -4,6 +4,8 @@
 
 let failures=0
 
+export PYTHONPATH=`pwd`
+
 cd tests
 for test in `ls test_*.sh`; do
     if ./$test; then
