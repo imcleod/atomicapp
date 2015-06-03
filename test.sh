@@ -1,15 +1,6 @@
 #!/bin/bash
 
-#echo "this is a void test suite..."
-
-pip install anymarkup
-
 let failures=0
-
-export PYTHONPATH=$PYTHONPATH:`pwd`
-
-echo PYTHONPATH - $PYTHONPATH
-ls -l
 
 cd tests
 for test in `ls test_*.sh`; do
