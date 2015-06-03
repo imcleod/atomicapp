@@ -8,6 +8,9 @@ let failures=0
 
 export PYTHONPATH=$PYTHONPATH:`pwd`
 
+echo PYTHONPATH - $PYTHONPATH
+ls -l
+
 cd tests
 for test in `ls test_*.sh`; do
     if ./$test; then
