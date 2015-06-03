@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 let failures=0
 
