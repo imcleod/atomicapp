@@ -6,7 +6,7 @@ pip install anymarkup
 
 let failures=0
 
-export PYTHONPATH=`pwd`
+export PYTHONPATH=$PYTHONPATH:`pwd`
 
 cd tests
 for test in `ls test_*.sh`; do
